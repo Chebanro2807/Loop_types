@@ -31,3 +31,15 @@ let closeOneMoreTime = ()=> {
     }
 }
 closeOneMoreTime()
+// =================
+// вот рекурсия
+let i = 1
+function recursion() {
+    console.log(i)
+    if (i < 8){
+        i++
+        recursion()
+    }
+}
+recursion()
+
